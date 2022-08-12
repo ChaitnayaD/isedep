@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Trans-shipment problem</description>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref name="Week4-Practice.mod" type="model">
+			</ref>
+			<ref name="Week4-Practice.ops" type="setting">
+			</ref>
+			<ref name="Week4-Practice.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

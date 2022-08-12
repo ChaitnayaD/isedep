@@ -1,0 +1,22 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: Chaitanya Dhuware
+ * Creation Date: 19-Feb-2022 at 6:45:20 pm
+ *********************************************/
+SheetConnection Data ("C:\\Users\\hp\\Desktop\\4th Sem\\ORLAb\\Week3-Prob4.xlsx");
+assets from SheetRead(Data,"Sheet1!D15");
+bidders from SheetRead(Data,"Sheet1!D15");
+Revenue from SheetRead(Data,"Sheet1!D8:H12");
+ 
+Z to SheetWrite(Data,"Sheet1!E29");
+X to SheetWrite(Data , "Sheet1!D23:H27");
+
+
+
+
+
+
+
+
+
+

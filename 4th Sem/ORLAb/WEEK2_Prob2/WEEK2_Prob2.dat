@@ -1,0 +1,14 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: hp
+ * Creation Date: 09-Feb-2022 at 4:00:58 pm
+ *********************************************/
+
+ SheetConnection Data ("C:\\Users\\hp\\Desktop\\Sem4\\ORLAb\\WEEK2-Prob2.xlsx");
+ 
+ 
+src from SheetRead(Data , "Sheet1!B3");
+desti from SheetRead(Data , "Sheet1!B4");
+TC from SheetRead(Data , "Sheet1!E4:H6");
+capacity from SheetRead(Data , "Sheet1!I4:I6");
+demand from SheetRead(Data , "Sheet1!E7:H7");
