@@ -1,2 +1,2 @@
 # isedep
-Repo for ise dep material
+Study material for Industrial and Systems Engineering IIT Kharagpur
